@@ -1,0 +1,730 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local furry = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local profile = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Username = Instance.new("TextLabel")
+local AvatarImage = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local skids = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local headuwu = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local DecorLine = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local DropShadow = Instance.new("ImageLabel")
+local Button = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Button_2 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local Button_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Button_4 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local Button_5 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Button_6 = Instance.new("TextLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local Button_7 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Button_8 = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local Button_9 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Button_10 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local Button_11 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Button_12 = Instance.new("TextLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local Button_13 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Button_14 = Instance.new("TextLabel")
+local UIGradient_9 = Instance.new("UIGradient")
+local Button_15 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Button_16 = Instance.new("TextLabel")
+local UIGradient_10 = Instance.new("UIGradient")
+local Button_17 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Button_18 = Instance.new("TextLabel")
+local UIGradient_11 = Instance.new("UIGradient")
+local Button_19 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Button_20 = Instance.new("TextLabel")
+local UIGradient_12 = Instance.new("UIGradient")
+local Button_21 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Button_22 = Instance.new("TextLabel")
+local UIGradient_13 = Instance.new("UIGradient")
+local Button_23 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Button_24 = Instance.new("TextLabel")
+local UIGradient_14 = Instance.new("UIGradient")
+local Button_25 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Button_26 = Instance.new("TextLabel")
+local UIGradient_15 = Instance.new("UIGradient")
+local Button_27 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Button_28 = Instance.new("TextLabel")
+local UIGradient_16 = Instance.new("UIGradient")
+local DecorLine_2 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+
+--Properties:
+
+furry.Name = "furry"
+furry.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = furry
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+main.Position = UDim2.new(0.708313525, 0, 0.25451389, 0)
+main.Size = UDim2.new(0, 405, 0, 336)
+
+profile.Name = "profile"
+profile.Parent = main
+profile.Active = true
+profile.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+profile.BorderColor3 = Color3.fromRGB(27, 42, 53)
+profile.Position = UDim2.new(0.0779765919, 0, 0.109608009, 0)
+profile.Size = UDim2.new(0, 192, 0, 64)
+
+UICorner.CornerRadius = UDim.new(0, 7)
+UICorner.Parent = profile
+
+Username.Name = "Username"
+Username.Parent = profile
+Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Username.BackgroundTransparency = 1.000
+Username.Position = UDim2.new(0.303749979, 0, 0.484625012, -2)
+Username.Size = UDim2.new(0, 126, 0, 33)
+Username.Font = Enum.Font.Gotham
+Username.Text = ""
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextSize = 22.000
+Username.TextWrapped = true
+Username.TextXAlignment = Enum.TextXAlignment.Left
+
+AvatarImage.Name = "AvatarImage"
+AvatarImage.Parent = profile
+AvatarImage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AvatarImage.Position = UDim2.new(0.0365297012, 0, 0.140421867, 0)
+AvatarImage.Size = UDim2.new(0, 45, 0, 46)
+AvatarImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_2.CornerRadius = UDim.new(0, 50)
+UICorner_2.Parent = AvatarImage
+
+TextLabel.Parent = profile
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.268818855, 0, -4.76837158e-07, 0)
+TextLabel.Size = UDim2.new(0, 95, 0, 30)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Welcome"
+TextLabel.TextColor3 = Color3.fromRGB(135, 12, 156)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(195, 111, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(195, 111, 255))}
+UIGradient.Rotation = 120
+UIGradient.Parent = profile
+
+skids.Name = "skids"
+skids.Parent = main
+skids.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skids.BackgroundTransparency = 1.000
+skids.Position = UDim2.new(1.53166866, 0, 0.119520739, 0)
+skids.Size = UDim2.new(0, 100, 0, 100)
+
+UICorner_3.Parent = skids
+
+headuwu.Name = "headuwu"
+headuwu.Parent = skids
+headuwu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+headuwu.BackgroundTransparency = 1.000
+headuwu.Position = UDim2.new(-3.26701736, 0, -0.209865764, 0)
+headuwu.Size = UDim2.new(0, 100, 0, 100)
+headuwu.Image = "rbxthumb://type=AvatarHeadShot&id=392728842&w=420&h=420"
+
+UICorner_4.Parent = headuwu
+
+UICorner_5.Parent = main
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(190, 33, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(121, 31, 144))}
+UIGradient_2.Rotation = 120
+UIGradient_2.Parent = main
+
+DecorLine.Name = "DecorLine"
+DecorLine.Parent = main
+DecorLine.BackgroundColor3 = Color3.fromRGB(134, 62, 170)
+DecorLine.BorderSizePixel = 0
+DecorLine.Size = UDim2.new(0, 405, 0, 8)
+
+UICorner_6.Parent = DecorLine
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = main
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.499751359, 0, 0.501215041, 0)
+DropShadow.Size = UDim2.new(1.02356732, 47, 1.02730846, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6014261993"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+Button.Name = "Button"
+Button.Parent = main
+Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button.BackgroundTransparency = 1.000
+Button.Position = UDim2.new(0.0946524143, 0, 0.382286608, 0)
+Button.Size = UDim2.new(0, 92, 0, 62)
+Button.Font = Enum.Font.SourceSans
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextSize = 14.000
+
+UICorner_7.Parent = Button
+
+Button_2.Name = "Button"
+Button_2.Parent = Button
+Button_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_2.BackgroundTransparency = 1.000
+Button_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_2.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_2.Size = UDim2.new(0, 105, 0, 22)
+Button_2.Font = Enum.Font.GothamBlack
+Button_2.Text = "Furry!"
+Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_2.TextScaled = true
+Button_2.TextSize = 9.000
+Button_2.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_3.Rotation = 120
+UIGradient_3.Parent = Button
+
+Button_3.Name = "Button"
+Button_3.Parent = main
+Button_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_3.BackgroundTransparency = 1.000
+Button_3.Position = UDim2.new(0.0946524143, 0, 0.498358041, 0)
+Button_3.Size = UDim2.new(0, 92, 0, 62)
+Button_3.Font = Enum.Font.SourceSans
+Button_3.Text = ""
+Button_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_3.TextSize = 14.000
+
+UICorner_8.Parent = Button_3
+
+Button_4.Name = "Button"
+Button_4.Parent = Button_3
+Button_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_4.BackgroundTransparency = 1.000
+Button_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_4.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_4.Size = UDim2.new(0, 105, 0, 22)
+Button_4.Font = Enum.Font.GothamBlack
+Button_4.Text = "Multi!"
+Button_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_4.TextScaled = true
+Button_4.TextSize = 9.000
+Button_4.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_4.Rotation = 120
+UIGradient_4.Parent = Button_3
+
+Button_5.Name = "Button"
+Button_5.Parent = main
+Button_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_5.BackgroundTransparency = 1.000
+Button_5.Position = UDim2.new(0.0946524143, 0, 0.620381832, 0)
+Button_5.Size = UDim2.new(0, 92, 0, 62)
+Button_5.Font = Enum.Font.SourceSans
+Button_5.Text = ""
+Button_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_5.TextSize = 14.000
+
+UICorner_9.Parent = Button_5
+
+Button_6.Name = "Button"
+Button_6.Parent = Button_5
+Button_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_6.BackgroundTransparency = 1.000
+Button_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_6.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_6.Size = UDim2.new(0, 105, 0, 22)
+Button_6.Font = Enum.Font.GothamBlack
+Button_6.Text = "Aura!"
+Button_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_6.TextScaled = true
+Button_6.TextSize = 9.000
+Button_6.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_5.Rotation = 120
+UIGradient_5.Parent = Button_5
+
+Button_7.Name = "Button"
+Button_7.Parent = main
+Button_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_7.BackgroundTransparency = 1.000
+Button_7.Position = UDim2.new(0.0946524143, 0, 0.742405653, 0)
+Button_7.Size = UDim2.new(0, 92, 0, 62)
+Button_7.Font = Enum.Font.SourceSans
+Button_7.Text = ""
+Button_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_7.TextSize = 14.000
+
+UICorner_10.Parent = Button_7
+
+Button_8.Name = "Button"
+Button_8.Parent = Button_7
+Button_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_8.BackgroundTransparency = 1.000
+Button_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_8.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_8.Size = UDim2.new(0, 105, 0, 22)
+Button_8.Font = Enum.Font.GothamBlack
+Button_8.Text = "Vanish!"
+Button_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_8.TextScaled = true
+Button_8.TextSize = 9.000
+Button_8.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_6.Rotation = 120
+UIGradient_6.Parent = Button_7
+
+Button_9.Name = "Button"
+Button_9.Parent = main
+Button_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_9.BackgroundTransparency = 1.000
+Button_9.Position = UDim2.new(0.32428205, 0, 0.382286608, 0)
+Button_9.Size = UDim2.new(0, 92, 0, 62)
+Button_9.Font = Enum.Font.SourceSans
+Button_9.Text = ""
+Button_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_9.TextSize = 14.000
+
+UICorner_11.Parent = Button_9
+
+Button_10.Name = "Button"
+Button_10.Parent = Button_9
+Button_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_10.BackgroundTransparency = 1.000
+Button_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_10.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_10.Size = UDim2.new(0, 105, 0, 22)
+Button_10.Font = Enum.Font.GothamBlack
+Button_10.Text = "Mimic!"
+Button_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_10.TextScaled = true
+Button_10.TextSize = 9.000
+Button_10.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_7.Rotation = 120
+UIGradient_7.Parent = Button_9
+
+Button_11.Name = "Button"
+Button_11.Parent = main
+Button_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_11.BackgroundTransparency = 1.000
+Button_11.Position = UDim2.new(0.32428205, 0, 0.498358041, 0)
+Button_11.Size = UDim2.new(0, 92, 0, 62)
+Button_11.Font = Enum.Font.SourceSans
+Button_11.Text = ""
+Button_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_11.TextSize = 14.000
+
+UICorner_12.Parent = Button_11
+
+Button_12.Name = "Button"
+Button_12.Parent = Button_11
+Button_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_12.BackgroundTransparency = 1.000
+Button_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_12.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_12.Size = UDim2.new(0, 105, 0, 22)
+Button_12.Font = Enum.Font.GothamBlack
+Button_12.Text = "Rage!"
+Button_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_12.TextScaled = true
+Button_12.TextSize = 9.000
+Button_12.TextWrapped = true
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_8.Rotation = 120
+UIGradient_8.Parent = Button_11
+
+Button_13.Name = "Button"
+Button_13.Parent = main
+Button_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_13.BackgroundTransparency = 1.000
+Button_13.Position = UDim2.new(0.32428205, 0, 0.620381832, 0)
+Button_13.Size = UDim2.new(0, 92, 0, 62)
+Button_13.Font = Enum.Font.SourceSans
+Button_13.Text = ""
+Button_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_13.TextSize = 14.000
+
+UICorner_13.Parent = Button_13
+
+Button_14.Name = "Button"
+Button_14.Parent = Button_13
+Button_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_14.BackgroundTransparency = 1.000
+Button_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_14.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_14.Size = UDim2.new(0, 105, 0, 22)
+Button_14.Font = Enum.Font.GothamBlack
+Button_14.Text = "Stab!"
+Button_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_14.TextScaled = true
+Button_14.TextSize = 9.000
+Button_14.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_9.Rotation = 120
+UIGradient_9.Parent = Button_13
+
+Button_15.Name = "Button"
+Button_15.Parent = main
+Button_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_15.BackgroundTransparency = 1.000
+Button_15.Position = UDim2.new(0.32428205, 0, 0.742405653, 0)
+Button_15.Size = UDim2.new(0, 92, 0, 62)
+Button_15.Font = Enum.Font.SourceSans
+Button_15.Text = ""
+Button_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_15.TextSize = 14.000
+
+UICorner_14.Parent = Button_15
+
+Button_16.Name = "Button"
+Button_16.Parent = Button_15
+Button_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_16.BackgroundTransparency = 1.000
+Button_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_16.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_16.Size = UDim2.new(0, 105, 0, 22)
+Button_16.Font = Enum.Font.GothamBlack
+Button_16.Text = "Fling!"
+Button_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_16.TextScaled = true
+Button_16.TextSize = 9.000
+Button_16.TextWrapped = true
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_10.Rotation = 120
+UIGradient_10.Parent = Button_15
+
+Button_17.Name = "Button"
+Button_17.Parent = main
+Button_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_17.BackgroundTransparency = 1.000
+Button_17.Position = UDim2.new(0.551442564, 0, 0.298953265, 0)
+Button_17.Size = UDim2.new(0, 92, 0, 62)
+Button_17.Font = Enum.Font.SourceSans
+Button_17.Text = ""
+Button_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_17.TextSize = 14.000
+
+UICorner_15.Parent = Button_17
+
+Button_18.Name = "Button"
+Button_18.Parent = Button_17
+Button_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_18.BackgroundTransparency = 1.000
+Button_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_18.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_18.Size = UDim2.new(0, 105, 0, 22)
+Button_18.Font = Enum.Font.GothamBlack
+Button_18.Text = "/furry"
+Button_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_18.TextScaled = true
+Button_18.TextSize = 9.000
+Button_18.TextWrapped = true
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_11.Rotation = 120
+UIGradient_11.Parent = Button_17
+
+Button_19.Name = "Button"
+Button_19.Parent = main
+Button_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_19.BackgroundTransparency = 1.000
+Button_19.Position = UDim2.new(0.551442564, 0, 0.420977056, 0)
+Button_19.Size = UDim2.new(0, 92, 0, 62)
+Button_19.Font = Enum.Font.SourceSans
+Button_19.Text = ""
+Button_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_19.TextSize = 14.000
+
+UICorner_16.Parent = Button_19
+
+Button_20.Name = "Button"
+Button_20.Parent = Button_19
+Button_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_20.BackgroundTransparency = 1.000
+Button_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_20.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_20.Size = UDim2.new(0, 105, 0, 22)
+Button_20.Font = Enum.Font.GothamBlack
+Button_20.Text = "leave"
+Button_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_20.TextScaled = true
+Button_20.TextSize = 9.000
+Button_20.TextWrapped = true
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_12.Rotation = 120
+UIGradient_12.Parent = Button_19
+
+Button_21.Name = "Button"
+Button_21.Parent = main
+Button_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_21.BackgroundTransparency = 1.000
+Button_21.Position = UDim2.new(0.551442564, 0, 0.543000877, 0)
+Button_21.Size = UDim2.new(0, 92, 0, 62)
+Button_21.Font = Enum.Font.SourceSans
+Button_21.Text = ""
+Button_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_21.TextSize = 14.000
+
+UICorner_17.Parent = Button_21
+
+Button_22.Name = "Button"
+Button_22.Parent = Button_21
+Button_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_22.BackgroundTransparency = 1.000
+Button_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_22.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_22.Size = UDim2.new(0, 105, 0, 22)
+Button_22.Font = Enum.Font.GothamBlack
+Button_22.Text = "reset"
+Button_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_22.TextScaled = true
+Button_22.TextSize = 9.000
+Button_22.TextWrapped = true
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_13.Rotation = 120
+UIGradient_13.Parent = Button_21
+
+Button_23.Name = "Button"
+Button_23.Parent = main
+Button_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_23.BackgroundTransparency = 1.000
+Button_23.Position = UDim2.new(0.551442564, 0, 0.665024698, 0)
+Button_23.Size = UDim2.new(0, 92, 0, 62)
+Button_23.Font = Enum.Font.SourceSans
+Button_23.Text = ""
+Button_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_23.TextSize = 14.000
+
+UICorner_18.Parent = Button_23
+
+Button_24.Name = "Button"
+Button_24.Parent = Button_23
+Button_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_24.BackgroundTransparency = 1.000
+Button_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_24.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_24.Size = UDim2.new(0, 105, 0, 22)
+Button_24.Font = Enum.Font.GothamBlack
+Button_24.Text = "limit"
+Button_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_24.TextScaled = true
+Button_24.TextSize = 9.000
+Button_24.TextWrapped = true
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_14.Rotation = 120
+UIGradient_14.Parent = Button_23
+
+Button_25.Name = "Button"
+Button_25.Parent = main
+Button_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_25.BackgroundTransparency = 1.000
+Button_25.Position = UDim2.new(0.551442564, 0, 0.778119922, 0)
+Button_25.Size = UDim2.new(0, 92, 0, 62)
+Button_25.Font = Enum.Font.SourceSans
+Button_25.Text = ""
+Button_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_25.TextSize = 14.000
+
+UICorner_19.Parent = Button_25
+
+Button_26.Name = "Button"
+Button_26.Parent = Button_25
+Button_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_26.BackgroundTransparency = 1.000
+Button_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_26.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_26.Size = UDim2.new(0, 105, 0, 22)
+Button_26.Font = Enum.Font.GothamBlack
+Button_26.Text = "shrink"
+Button_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_26.TextScaled = true
+Button_26.TextSize = 9.000
+Button_26.TextWrapped = true
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_15.Rotation = 120
+UIGradient_15.Parent = Button_25
+
+Button_27.Name = "Button"
+Button_27.Parent = main
+Button_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_27.BackgroundTransparency = 1.000
+Button_27.Position = UDim2.new(0.77119565, 0, 0.418000877, 0)
+Button_27.Size = UDim2.new(0, 92, 0, 62)
+Button_27.Font = Enum.Font.SourceSans
+Button_27.Text = ""
+Button_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_27.TextSize = 14.000
+
+UICorner_20.Parent = Button_27
+
+Button_28.Name = "Button"
+Button_28.Parent = Button_27
+Button_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_28.BackgroundTransparency = 1.000
+Button_28.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button_28.Position = UDim2.new(-0.0830995739, 0, 0.312258065, 0)
+Button_28.Size = UDim2.new(0, 105, 0, 22)
+Button_28.Font = Enum.Font.GothamBlack
+Button_28.Text = "attack"
+Button_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_28.TextScaled = true
+Button_28.TextSize = 9.000
+Button_28.TextWrapped = true
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_16.Rotation = 120
+UIGradient_16.Parent = Button_27
+
+DecorLine_2.Name = "DecorLine"
+DecorLine_2.Parent = main
+DecorLine_2.BackgroundColor3 = Color3.fromRGB(134, 62, 170)
+DecorLine_2.BorderSizePixel = 0
+DecorLine_2.Position = UDim2.new(0.532565653, 0, 0.300084263, 0)
+DecorLine_2.Size = UDim2.new(0, 13, 0, 209)
+
+UICorner_21.Parent = DecorLine_2
+
+-- Scripts:
+
+local function LPFSCPI_fake_script() -- Username.LocalScript 
+	local script = Instance.new('LocalScript', Username)
+
+	script.Parent.Text = "@" .. game.Players.LocalPlayer.Name;
+	
+end
+coroutine.wrap(LPFSCPI_fake_script)()
+local function EMTMRTU_fake_script() -- AvatarImage.LocalScript 
+	local script = Instance.new('LocalScript', AvatarImage)
+
+	local l__Players__1 = game:GetService("Players");
+	local v2, v3 = l__Players__1:GetUserThumbnailAsync(l__Players__1.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420);
+	script.Parent.Image = v2;
+	
+end
+coroutine.wrap(EMTMRTU_fake_script)()
+local function CNPT_fake_script() -- headuwu.LocalScript 
+	local script = Instance.new('LocalScript', headuwu)
+
+	local picture = script.Parent.Parent.headuwu
+	local bro = 'rbxthumb://type=AvatarHeadShot&id=392728842&w=420&h=420' --brogames2003
+	
+	
+	
+	while true do
+	
+		picture.Image = bro
+		wait(3)
+		
+	end
+end
+coroutine.wrap(CNPT_fake_script)()
+local function AHCBNX_fake_script() -- main.hidefromthepolice 
+	local script = Instance.new('LocalScript', main)
+
+	local UIS = game:GetService("UserInputService")
+	local gui = script.Parent
+	
+	UIS.InputBegan:Connect(function(key,b)
+		
+		if key.KeyCode == Enum.KeyCode.V and not b then
+			if gui.Visible == true then
+				gui.Visible = false
+			else
+				gui.Visible = true
+			end
+		end
+	end)
+end
+coroutine.wrap(AHCBNX_fake_script)()
+local function KYLZT_fake_script() -- main.dragg 
+	local script = Instance.new('LocalScript', main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(KYLZT_fake_script)()
